@@ -1,13 +1,5 @@
-from asyncore import loop
-from lib2to3.pgen2.token import EQUAL
-from operator import length_hint
 from os import remove
-from posixpath import split
-from queue import Empty
 import random as rd
-from re import I, S
-from secrets import choice
-from turtle import done
 import time
 
 list_of_names = ["amanda","bruno",'vinicius','fernanda',"pedrao",'joao','juninho','carol',"luis","gabriela"]
